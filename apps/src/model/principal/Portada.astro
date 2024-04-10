@@ -1,0 +1,49 @@
+---
+import Iconos from "./Iconos.astro";
+
+---
+<div class="principal">
+    <img src="/portada.png" alt="Description of the image"  >
+  <h1>Ricardo Balducci</h1>
+  <h2>Programador Junior</h2>
+  <Iconos></Iconos>
+</div>
+
+<style>
+    .center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.principal h1{
+		font-size: 50px;
+	}
+	.principal h2{
+		color: #FFD600;
+		font-size: 40px;
+	}
+	.principal {
+		text-align: center;
+		
+	}
+
+	img {
+		width: 300px;
+		border: 10px solid #ffff;
+		border-radius: 100%;
+	}
+	@media (max-width: 768px) {
+		img{
+			width: 150px;
+		}
+		.principal h1 {
+			font-size: 30px;
+		}
+
+		.principal h2 {
+			font-size: 25px;
+		}
+		
+	}
+</style>
