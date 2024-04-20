@@ -1,11 +1,37 @@
 ---
 import Portada from "../model/principal/Portada.astro";
-
+import AcercaDe from "../model/AcercaDe/AcercaDe.astro";
 import Layout from "../layouts/Layout.astro";
-
+import FormacionAcademica from "../model/Formacion/FormacionAcademica.astro";
+import Conocimientos from "../model/Conocimientos/Conocimientos.astro";
 ---
 
 <Layout>
 	<Portada />
-	
+	<span></span>
+	<AcercaDe />
+	<span></span>
+	<FormacionAcademica />
+	<span></span>
+	<Conocimientos />
+	<span></span>
 </Layout>
+
+
+<style>
+	span {
+        background-color: white;
+        display: block;
+        height: 3px;
+        width: 100%;
+		margin-top: 50px;
+    }
+	
+	/*
+	
+	
+	<Conocimientos />
+	*/
+	
+</style>
+

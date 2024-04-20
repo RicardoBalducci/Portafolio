@@ -1,0 +1,108 @@
+<div class="Acerca-De">
+    <h1 class="Titulo-De">Acerca de</h1>
+    
+    <div class="Division">
+        <p>
+            Soy un programador web y estudiante del 8vo semestre de la carrera de Licenciatura en 
+            Informática en la Universidad de Oriente Núcleo Nueva Esparta, Isla de Margarita, Venezuela.
+            Me enfoco en aprender y conocer sobre la creación y diseño de páginas web, así como en el 
+            desarrollo de aplicaciones web y sistemas. Mi objetivo principal es garantizar un 
+            funcionamiento eficiente y seguro de las aplicaciones, así como la gestión y optimización 
+            de base de datos.
+        </p>
+        
+        <p>
+            A medida que he avanzado, he adquirido habilidades en lenguajes de programación como,
+            Java, PHP, Python, Javascript, Typescript, así como en frameworks y tecnologías 
+            relacionadas como Flask, Nestjs, Laravel. También estoy en proceso de aprendizaje de diseño
+            y gestión de base de datos utilizando sistemas como MySQL y Postgresql.
+        </p>
+            
+        <p>
+            Mi objetivo es crear soluciones robustas y escalables, centrándome en la eficiencia del código
+            y la seguridad de los sistemas. Me gusta trabajar en equipo y colaborar con otros
+            desarrolladores, diseñadores y administradores de sistemas para lograr los mejores
+            resultados.
+        </p>
+        <img class="imagen-1" src="../../../public/Killua.jpg" alt="">
+        <a href="/ruta/al/archivo.pdf" download>
+            <button>Descargar archivo</button>
+        </a>
+    </div>
+</div>
+
+<style>
+    .Acerca-De {
+		margin: 100px;
+	}
+    
+    .Titulo-De {
+        margin: 20px 20px 20px 0px;
+        font-size: 50px;
+        color: #FFD600;
+    }
+    .Division {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 20px;
+        text-align: justify;
+    }
+    .Division p{
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .imagen-1 {
+        width: 400px;
+        grid-column: 2;
+        grid-row: 1 / span 3;
+        border-radius: 600px;
+    }
+    button {
+        cursor: pointer;
+        font-size: 20px;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    button:hover {
+        background-color: #f3f3f3;
+        color: black;
+    }
+    @media (max-width: 1036px) {
+    .Acerca-De {
+        margin: 50px;
+    }
+    .Titulo-De {
+        font-size: 30px;
+    }
+    .Division {
+        display: block;
+        text-align: center;
+    }
+    .Division p {
+        text-align: justify;
+        font-size: 15px;
+        width: 100%;
+    }
+    .imagen-1 {
+        width: 200px;
+        margin: 20px auto; /* Centra la imagen horizontalmente */
+    }
+    button {
+        display: block;
+        margin: 20px auto; /* Centra el botón horizontalmente */
+    }
+    a{
+        text-decoration: none;
+    }
+}
+    
+</style>
+
+
