@@ -1,40 +1,72 @@
-
-
 <div class="Formacion">
-    <h1 class="Titulo-Form">Formación Academica</h1>
-    
+    <h1 class="Titulo-Form">Formación Académica</h1>
+
+    <div class="Division">
+        
+        <div class="contenido">
+            <h1 class="Titulo">Unidad Educativa Instituto Educacional Nueva Esparta</h1>
+            <h2 class="texto">Bachillerato</h2>
+            <h2 class="texto">2014-2019</h2>
+        </div>
+        <div class="contenido">
+            <h1 class="Titulo">Universidad de Oriente Núcleo Nueva Esparta</h1>
+            <h2 class="texto">Licenciatura en Informática</h2>
+            <h2 class="texto">2019-Actualmente</h2>
+        </div>
+    </div>
 </div>
-
-
-
 
 <style>
     .Formacion {
-		margin: 100px;
-	}
-    .Titulo-Form{
+        margin: 100px;
+    }
+    .Titulo-Form {
         margin: 20px 20px 20px 0px;
         font-size: 50px;
         color: #FFD600;
         text-align: end;
     }
-
+    .Titulo {
+        margin: 20px 0px 20px 20px;
+        font-size: 40px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .Division {
+        text-align: end;
+        margin: 10px;
+    }
+    .texto {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
 
     @media (max-width: 768px) {
-		.Formacion{
+        .Formacion {
             text-align: center;
+            margin: 20px;
         }
         .Titulo-Form {
+            text-align: end;
             font-size: 30px;
+            margin-right: 0px;
+            margin-bottom: 0px;
         }
-	}
-    /*
-    
-    <h1>Unidad Educativa Instituto Educacional Nueva Esparta</h1>
-    <h2>Bachillerato</h2>
-    <h2>2014-2019</h2>
-    <h1>Universidad de Oriente Núcleo Nueva Esparta</h1>
-    <h2>Licenciatura en Informática</h2>
-    <h2>2019-Actualmente</h2>
-    */
+        .Titulo{
+            font-size: 20px;
+            text-align: end;
+        }
+        .texto{
+            font-size: 15px
+        }
+    }/*
+
+<h1>Unidad Educativa Instituto Educacional Nueva Esparta</h1>
+<h2>Bachillerato</h2>
+<h2>2014-2019</h2>
+<h1>Universidad de Oriente Núcleo Nueva Esparta</h1>
+<h2>Licenciatura en Informática</h2>
+<h2>2019-Actualmente</h2>
+*/
 </style>
+
